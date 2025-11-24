@@ -5,9 +5,9 @@ import pickle
 
 LOAD_PATH = "/content/drive/MyDrive/SafeSwipeModel/"
 
-model = pickle.load(open(LOAD_PATH + "Model.pkl", "rb"))
-scaler = pickle.load(open(LOAD_PATH + "scaler.pkl", "rb"))
-columns = pickle.load(open(LOAD_PATH + "columns.pkl", "rb"))
+model = pickle.load(open("Model.pkl", "rb"))
+scaler = pickle.load(open("scaler.pkl", "rb"))
+columns = pickle.load(open("columns.pkl", "rb"))
 
 THRESHOLD = 0.0007
 
